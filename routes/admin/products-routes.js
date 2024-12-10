@@ -17,7 +17,7 @@ router.post("/add", addProduct);
 router.put("/edit/:id", editProduct);
 router.delete("/delete/:id", deleteProduct);
 router.get("/get", fetchAllProducts);
-router.get("/get/filtered", getFilteredProducts);
+// router.get("/get/filtered", getFilteredProducts);
 
 
 module.exports = router;
